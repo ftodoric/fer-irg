@@ -1,0 +1,31 @@
+﻿Build started 16/03/2020 14:38:53.
+     1>Project "C:\IRGpotpora\IRG\IRGPrimjeri\Primjer1\Primjer1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\IRGpotpora\IRG\Biblioteke\glew-1.13.0\include" /IC:\IRGpotpora\IRG\Biblioteke\glm /I"C:\IRGpotpora\IRG\Biblioteke\freeglut-2.8.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D NDEBUG /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bresenham.cpp
+         bresenham.cpp
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(107): warning C4101: 'dy' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(106): warning C4101: 'y' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(106): warning C4101: 'x' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(108): warning C4101: 'd' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(107): warning C4101: 'dx' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(158): warning C4101: 'dy' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(158): warning C4101: 'y' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(158): warning C4101: 'x' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(158): warning C4101: 'd' : unreferenced local variable
+     1>c:\irgpotpora\irg\irgprimjeri\primjer1\bresenham.cpp(158): warning C4101: 'dx' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\IRGpotpora\IRG\IRGPrimjeri\Debug\Primjer1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\IRGpotpora\IRG\Biblioteke\freeglut-2.8.1\lib\x86\Debug" /LIBPATH:"C:\IRGpotpora\IRG\Biblioteke\glew-1.13.0\lib\Release\Win32" opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\IRGpotpora\IRG\IRGPrimjeri\Debug\Primjer1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\IRGpotpora\IRG\IRGPrimjeri\Debug\Primjer1.lib" /MACHINE:X86 Debug\bresenham.obj
+         Primjer1.vcxproj -> C:\IRGpotpora\IRG\IRGPrimjeri\Debug\Primjer1.exe
+       PostBuildEvent:
+         xcopy "C:\IRGpotpora\IRG\Biblioteke\glew-1.13.0\bin\Release\Win32\glew32.dll" "C:\IRGpotpora\IRG\IRGPrimjeri\Debug\" /Y
+         xcopy "C:\IRGpotpora\IRG\Biblioteke\freeglut-2.8.1\lib\x86\Debug\freeglut.dll" "C:\IRGpotpora\IRG\IRGPrimjeri\Debug\" /Y
+         :VCEnd
+         C:\IRGpotpora\IRG\Biblioteke\glew-1.13.0\bin\Release\Win32\glew32.dll
+         1 File(s) copied
+         C:\IRGpotpora\IRG\Biblioteke\freeglut-2.8.1\lib\x86\Debug\freeglut.dll
+         1 File(s) copied
+     1>Done Building Project "C:\IRGpotpora\IRG\IRGPrimjeri\Primjer1\Primjer1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.69
